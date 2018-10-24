@@ -1,5 +1,9 @@
 // Widescreens
 @include mediaXl {
+  .title {
+    width: 50%;
+  }
+
   .projects {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -7,6 +11,10 @@
 
 // Desktops & Laptops
 @include mediaLg {
+  .title {
+    width: 70%;
+  }
+
   .projects {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -14,6 +22,9 @@
 
 // Tablets & Small Laptops
 @include mediaMd {
+  .title {
+    width: 90%;
+  }
   main {
     align-items: center;
     text-align: center;
@@ -70,6 +81,9 @@
 
 // Smartphones
 @include mediaSm {
+  .title {
+    width: 100%;
+  }
   main {
     padding: 2rem;
     #home h1 {
